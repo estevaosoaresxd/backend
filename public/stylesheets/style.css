@@ -1,0 +1,63 @@
+body {
+  padding: 20px;
+}
+
+ul {
+  width: 28%;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 6px;
+  margin: 5px 0 5px 0;
+}
+
+#error {
+  margin-bottom: 20px;
+}
+
+.error {
+  color: red;
+  font-size: medium;
+}
+
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.form-task {
+  position: relative;
+  width: 30%;
+  border: 3px solid blue;
+  border-radius: 5px;
+  background-color: #a2bed6;
+  padding: 20px 0 10px 10px;
+  margin-bottom: 10px;
+}
+
+.new-task {
+  position: absolute;
+  top: -20px;
+  left: 20px;
+  padding: 5px;
+  border: 2px solid blue;
+  border-radius: 10px;
+  background-color: #a2bed6;
+  color: blue;
+  font-weight: bold;
+}
+
+.button-send {
+  color: blue;
+  text-decoration: none;
+}
+
+.text-done {
+  color: black;
+  font-style: italic;
+  text-decoration: line-through;
+}
